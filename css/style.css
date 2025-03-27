@@ -1,8 +1,69 @@
-.container {
-    text-align: center;
-    margin: 120px auto;
-    max-width: 600px;
+body {
+    background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");  
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
 }
+h1{
+    font-size: 38px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0 0 5px;
+    font-size: 28px;
+}
+
+select {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.container {
+    background-color: rgba(204, 204, 204, 0.5);
+    margin: 60px auto;
+    max-width: 600px;
+    padding: 30px;
+    padding-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 10px;
+}
+
+
+.city {
+    display: flex;
+    margin: 10px 0;
+    justify-content: space-between;
+    padding: 30px 0;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.6);
+}
+
+.city:last-child{
+    border: none;
+}
+
+
+.date {
+    opacity: 0.7;
+}
+
+.time {
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.time small{
+    font-size: 24px;
+    vertical-align: middle;
+    line-height: 36px;
+}
+
 footer{
     text-align: center;
+    font-size: 18px;
+    color: rgb(211, 211, 211);
+    margin: 0;
+    padding: 10px 0; 
 }
